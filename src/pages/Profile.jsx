@@ -1,9 +1,11 @@
 import React from 'react'
+import Navbar from '../component/nav.jsx';
 
 function Profile() {
     return (
         <>
-            <div>
+            <Navbar />
+            <div className="w-screen flex justify-center items-center p-16">
                 <div>
                     <h2>
                         My full profile
